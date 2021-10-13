@@ -4,9 +4,9 @@ This backend application will allow the user to add appointments, get a list of 
 
 ### Installing
 
-* Enter command 
+* Enter command into terminal
 ```
-git clone https://github.com/hbrnguyen/doctor-server.git" into terminal
+git clone https://github.com/hbrnguyen/doctor-server.git"
 ```
 * Navigate into doctor-server folder, and enter this command to install all dependencies
 ```
