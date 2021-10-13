@@ -36,7 +36,7 @@ npm run watch
     http://localhost:3000/appointments/1
     ```
     
-    * POST appointment: adds an appointment given a valid request body (note: there are only 3 doctors in model with IDs 1, 2, and 3)
+    * POST appointment: adds an appointment given a valid request body (note: there are only 3 doctors to which appointments can be assigned - IDs: [1, 2, 3])
       * Example Body
       ```
       {
@@ -44,7 +44,7 @@ npm run watch
         "date": "10-13-2021",
         "time": "09:30 AM",
         "kind": "New Patient",
-        "doctorID": "0"
+        "doctorID": "1"
       }
       ```
       * Endpoint
