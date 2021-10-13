@@ -21,22 +21,22 @@ npm run watch
 ### How to Use Program
 * Using Postman
   * Endpoints
-    * GET appointments: displays all appointments
+    * **GET** appointments: displays all appointments
       ```
       http://localhost:3000/appointments/
       ```
       
-    * GET appointment: display appointments on a day given doctor ID (.../appointments/{doctorID}/{MM-DD-YYYY})
+    * **GET** appointment: display appointments on a day given doctor ID (.../appointments/{doctorID}/{MM-DD-YYYY})
     ```
     http://localhost:3000/appointments/1/10-13-2021
     ```
     
-    * DELETE appointment: deletes an appointment given appointment ID (.../appointments/{appointmentID})
+    * **DELETE** appointment: deletes an appointment given appointment ID (.../appointments/{appointmentID})
     ```
     http://localhost:3000/appointments/1
     ```
     
-    * POST appointment: adds an appointment given a valid request body (note: there are only 3 doctors to which appointments can be assigned - IDs: [1, 2, 3])
+    * **POST** appointment: adds an appointment given a valid request body (note: there are only 3 doctors to which appointments can be assigned - IDs: [1, 2, 3])
       * Example Body
       ```
       {
